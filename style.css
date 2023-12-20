@@ -1,0 +1,56 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .col-md-3 {
+        width: calc(30%); 
+    }
+  }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .col-md-3 {
+        width: calc(50%); 
+    }
+}
+
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    background: linear-gradient(90deg, rgba(45, 27, 81, 0.955), rgba(49, 62, 117, 0.87));
+margin-top: 15em;
+}
+
+
+img {
+    height: 250px;
+    max-width: 270px; 
+
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    text-align: center;
+    color: white;
+}
+
+
+.card {
+    background-color: transparent;
+    border: none; /* Optional: If you want to remove the card border */
+}
+
+p {
+    font-size: 18px;
+}
+
+p:first-child{
+    font-size: 22px;
+    font-weight: bold;
+}
